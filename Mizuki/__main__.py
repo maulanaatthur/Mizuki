@@ -75,15 +75,15 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """Hey there, my name is Mizuki.\n\nI am a next gen powerful group manager bot.\n\nHit /help to find my list of available commands."""
+PM_START_TEXT = """Aku adalah bot management group.\n\nKlik /help untuk melihat perintah yang tersedia."""
 buttons = [
     [
-        InlineKeyboardButton(text="♞ Support", url="https://t.me/Infinity_BOTs"),
+        InlineKeyboardButton(text="♞ Owner", url="https://t.me/greatestpeopl3"),
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="#⃣ Source Code", url="https://github.com/ImJanindu/Mizuki"
+            text="#⃣ Group", url="https://t.me/fofgroup"
         ),
     ],
     [
@@ -94,16 +94,16 @@ buttons = [
 ]
 
 HELP_STRINGS = """
-Hey there! My name is *Mizuki*.
-I'm a group management bot, here to help you get around and keep the order in your groups!
+Halo teman!.
+Bot ini dibuat untuk membantu kamu mengatur group mu!
 
-*Main* commands available:
- ✪ /help: PM's you this message.
- ✪ /help <module name>: PM's you info about that module.
- ✪ /donate: information on how to donate!
+*perintah* utama yang tersedia:
+ ✪ /help: mengirimkan daftar perintah secara pribadi.
+ ✪ /help <module name>: mengirimkan penjelasan perintah secara pribadi.
+ ✪ /donate: minta uang nya om!
  ✪ /settings:
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a group: will redirect you to pm, with all that chat's settings.
+   ◔ di pc: mengirimkan kamu daftar keseluruhan perintah.
+   ◔ di group: mengirimkan kamu perintah untuk mengatur chat group.
 """
 
 DONATE_STRING = "No Need, I'm Rich 😏"
